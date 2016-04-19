@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="50dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="15dp"
+        android:src="@drawable/nav_back"
+        android:onClick="hideNavDrawer"
+        android:background="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:text="@string/traderoom"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">IQ option Demo</string>
+    <string name="traderoom">Traderoom</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="investment">INVESTMENT</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="deposit">Deposit</string>
+
+
+    <string name="fragment_personal_data">Personal Data</string>
+    <string name="fragment_abt_company">About Company</string>
+    <string name="fragment_deposit">Deposit</string>
+    <string name="fragment_education">Education</string>
+    <string name="fragment_faq">FAQ</string>
+    <string name="fragment_operation_history">Operation History</string>
+    <string name="fragment_preferences">Preferences</string>
+    <string name="fragment_support">Support</string>
+    <string name="fragment_trading_history">Trading History</string>
+    <string name="fragment_tutorial">Tutorial</string>
+    <string name="fragment_withdrawls">Withdrawls</string>
+
+    <string-array name="options_type">
+
+        <item>Turbo</item>
+        <item>Binary</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_hamburger"
+        android:onClick="openNavDrawer"
+        android:gravity="left|top"/>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:text="Demo Account"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="9sp"
+            android:paddingTop="8dp"
+            android:layout_gravity="start"
+            android:textAlignment="center"
+
+            android:background="@drawable/round_corners_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_marginTop="2dp"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_corners_button"
+            android:orientation="horizontal"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+            <FrameLayout
+                android:id="@+id/fragmenttabholder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="118dp"
+        android:orientation="horizontal"
+        android:background="@color/grey">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="Profit"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:textAllCaps="true"
+            android:textSize="10sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="$3.64"
+            android:paddingTop="3dp"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:text="82%"
+            android:textAlignment="center"
+            android:textSize="9sp"
+            android:textColor="@color/grey"
+            android:background="@drawable/round_corners_textview"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="148dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+        <ImageButton
+            android:id="@+id/button_put"
+
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_put_button"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_corners_image_put"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="100dp" />
+
+        <ImageButton
+            android:id="@+id/button_call"
+
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_call_button"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_corners_textview"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="248dp"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_corners_button"
+            android:text="     open positions"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="9sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_corners_button"
+            android:text="     closed positions"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v4.app.FragmentTabHost>

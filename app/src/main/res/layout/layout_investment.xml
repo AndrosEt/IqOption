@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:onClick="decreaseInteger"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round_corners_button"
+        android:textColor="@color/white"
+        android:text="-"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:onClick="increaseInteger"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round_corners_button"
+        android:textColor="@color/white"
+        android:text="+"
+        android:layout_gravity="right|top" />
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round_corners_button"
+        android:textColor="@color/white"
+        android:text="$1"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal|top" />
+</FrameLayout>

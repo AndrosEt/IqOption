@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="PERSONAL CABINET"
+            >
+            <menu>
+                <item
+                    android:id="@+id/personal_data"
+                    android:title="Personal Data"
+                    android:icon="@drawable/menu_icon_personal_cabinet"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/deposit"
+                    android:title="Deposit"
+                    android:icon="@drawable/menu_submenu_icon_deposit"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/withdrawls"
+                    android:title="Withdrawls"
+                    android:icon="@drawable/menu_submenu_icon_payout"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/operation_history"
+                    android:title="Operation History"
+                    android:icon="@drawable/menu_submenu_icon_history"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/trading_History"
+                    android:title="Trading History"
+                    android:icon="@drawable/menu_submenu_icon_operation"
+                    android:checkable="true"/>
+            </menu>
+        </item>>
+
+    </group>
+<group android:checkableBehavior="single">
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/support"
+                android:title="Support"
+                android:icon="@drawable/menu_icon_support"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/preferences"
+                android:title="Preferences"
+                android:icon="@drawable/menu_icon_settings"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/faq"
+                android:title="FAQ"
+                android:icon="@drawable/menu_icon_faq"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/education"
+                android:title="Education"
+                android:icon="@drawable/menu_icon_education"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/tutorial"
+                android:title="Tutorial"
+                android:icon="@drawable/menu_icon_tutorial"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/abt_company"
+                android:title="About Company"
+                android:icon="@drawable/menu_icon_about"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/menu_icon_logout"
+                android:checkable="true"
+                android:onClick="exitApp"/>
+
+        </menu>
+        </item>
+    </group>
+</menu>
